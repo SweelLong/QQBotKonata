@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SweelLong\\Desktop\\QQBotKonata\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CCC45C71-1B8B-4488-A6AF-C22CA219C8C6}|QQBotKonata.csproj|c:\\users\\sweellong\\desktop\\qqbotkonata\\randomimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCC45C71-1B8B-4488-A6AF-C22CA219C8C6}|QQBotKonata.csproj|solutionrelative:randomimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCC45C71-1B8B-4488-A6AF-C22CA219C8C6}|QQBotKonata.csproj|c:\\users\\sweellong\\desktop\\qqbotkonata\\antirecall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCC45C71-1B8B-4488-A6AF-C22CA219C8C6}|QQBotKonata.csproj|solutionrelative:antirecall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCC45C71-1B8B-4488-A6AF-C22CA219C8C6}|QQBotKonata.csproj|c:\\users\\sweellong\\desktop\\qqbotkonata\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCC45C71-1B8B-4488-A6AF-C22CA219C8C6}|QQBotKonata.csproj|solutionrelative:core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AntiRecall.cs",
+              "DocumentMoniker": "C:\\Users\\SweelLong\\Desktop\\QQBotKonata\\AntiRecall.cs",
+              "RelativeDocumentMoniker": "AntiRecall.cs",
+              "ToolTip": "C:\\Users\\SweelLong\\Desktop\\QQBotKonata\\AntiRecall.cs",
+              "RelativeToolTip": "AntiRecall.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T11:22:11.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RandomImage.cs",
+              "DocumentMoniker": "C:\\Users\\SweelLong\\Desktop\\QQBotKonata\\RandomImage.cs",
+              "RelativeDocumentMoniker": "RandomImage.cs",
+              "ToolTip": "C:\\Users\\SweelLong\\Desktop\\QQBotKonata\\RandomImage.cs",
+              "RelativeToolTip": "RandomImage.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T11:01:15.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Core.cs",
+              "DocumentMoniker": "C:\\Users\\SweelLong\\Desktop\\QQBotKonata\\Core.cs",
+              "RelativeDocumentMoniker": "Core.cs",
+              "ToolTip": "C:\\Users\\SweelLong\\Desktop\\QQBotKonata\\Core.cs",
+              "RelativeToolTip": "Core.cs",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAAAM8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T08:16:21.512Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

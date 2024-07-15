@@ -1,0 +1,266 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Google.Protobuf/3.22.3": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Konata.Codec/1.3.1": {
+        "type": "package",
+        "dependencies": {
+          "MP3Sharp": "1.0.5"
+        },
+        "compile": {
+          "lib/netstandard2.1/Konata.Codec.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Konata.Codec.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Konata.Core/1.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.22.3",
+          "Konata.Codec": "1.3.1"
+        },
+        "compile": {
+          "lib/net7.0/Konata.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Konata.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MP3Sharp/1.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MP3Sharp.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MP3Sharp.dll": {
+            "related": ".pdb"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Google.Protobuf/3.22.3": {
+      "sha512": "uyWJZTS0N3gw35jtm/++1jAJNPkFP92QYdxgiC0yv8vQaOi8gaJZ8PhCnjmN6JbobJcCFPBd0cGkmCh6QYOt6Q==",
+      "type": "package",
+      "path": "google.protobuf/3.22.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "google.protobuf.3.22.3.nupkg.sha512",
+        "google.protobuf.nuspec",
+        "lib/net45/Google.Protobuf.dll",
+        "lib/net45/Google.Protobuf.pdb",
+        "lib/net45/Google.Protobuf.xml",
+        "lib/net5.0/Google.Protobuf.dll",
+        "lib/net5.0/Google.Protobuf.pdb",
+        "lib/net5.0/Google.Protobuf.xml",
+        "lib/netstandard1.1/Google.Protobuf.dll",
+        "lib/netstandard1.1/Google.Protobuf.pdb",
+        "lib/netstandard1.1/Google.Protobuf.xml",
+        "lib/netstandard2.0/Google.Protobuf.dll",
+        "lib/netstandard2.0/Google.Protobuf.pdb",
+        "lib/netstandard2.0/Google.Protobuf.xml"
+      ]
+    },
+    "Konata.Codec/1.3.1": {
+      "sha512": "MXnk6M6N/RX6rb/Yo9DzWFN+UKWrDT8VtIUJYvVGEkatEkmXmbmPTY7IA3TaiDAEWDL3bBSelWPALD77UnmLdw==",
+      "type": "package",
+      "path": "konata.codec/1.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "konata.codec.1.3.1.nupkg.sha512",
+        "konata.codec.nuspec",
+        "lib/netstandard2.1/Konata.Codec.dll",
+        "lib/netstandard2.1/Konata.Codec.xml"
+      ]
+    },
+    "Konata.Core/1.4.0": {
+      "sha512": "lFBdduqW1Q8VwW2wEZq5E4z7sa5gO3CCms9OLQBoTfyXHRoT1daNzTpQ2/PO/5FT7shp5Wz9a3meCc5cyu7huA==",
+      "type": "package",
+      "path": "konata.core/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "icon.png",
+        "konata.core.1.4.0.nupkg.sha512",
+        "konata.core.nuspec",
+        "lib/net6.0/Konata.Core.dll",
+        "lib/net6.0/Konata.Core.pdb",
+        "lib/net6.0/Konata.Core.xml",
+        "lib/net7.0/Konata.Core.dll",
+        "lib/net7.0/Konata.Core.pdb",
+        "lib/net7.0/Konata.Core.xml",
+        "lib/netstandard2.1/Konata.Core.dll",
+        "lib/netstandard2.1/Konata.Core.pdb",
+        "lib/netstandard2.1/Konata.Core.xml"
+      ]
+    },
+    "MP3Sharp/1.0.5": {
+      "sha512": "KyGy1ZBVEXfovHdJRY8NzjWZBdL75PSx+13KW720JuUTKyWbDCHk0jgjif9b62UPnBZu5V/ZB+tpHWcPhoZS8Q==",
+      "type": "package",
+      "path": "mp3sharp/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/MP3Sharp.dll",
+        "lib/netstandard2.0/MP3Sharp.pdb",
+        "mp3sharp.1.0.5.nupkg.sha512",
+        "mp3sharp.nuspec",
+        "src/MP3Sharp/Buffer16BitStereo.cs",
+        "src/MP3Sharp/Decoding/ABuffer.cs",
+        "src/MP3Sharp/Decoding/BitReserve.cs",
+        "src/MP3Sharp/Decoding/Bitstream.cs",
+        "src/MP3Sharp/Decoding/BitstreamErrors.cs",
+        "src/MP3Sharp/Decoding/BitstreamException.cs",
+        "src/MP3Sharp/Decoding/CircularByteBuffer.cs",
+        "src/MP3Sharp/Decoding/Crc16.cs",
+        "src/MP3Sharp/Decoding/Decoder.cs",
+        "src/MP3Sharp/Decoding/DecoderErrors.cs",
+        "src/MP3Sharp/Decoding/DecoderException.cs",
+        "src/MP3Sharp/Decoding/Decoders/ASubband.cs",
+        "src/MP3Sharp/Decoding/Decoders/IFrameDecoder.cs",
+        "src/MP3Sharp/Decoding/Decoders/LayerI/SubbandLayer1.cs",
+        "src/MP3Sharp/Decoding/Decoders/LayerI/SubbandLayer1IntensityStereo.cs",
+        "src/MP3Sharp/Decoding/Decoders/LayerI/SubbandLayer1Stereo.cs",
+        "src/MP3Sharp/Decoding/Decoders/LayerIDecoder.cs",
+        "src/MP3Sharp/Decoding/Decoders/LayerII/SubbandLayer2.cs",
+        "src/MP3Sharp/Decoding/Decoders/LayerII/SubbandLayer2IntensityStereo.cs",
+        "src/MP3Sharp/Decoding/Decoders/LayerII/SubbandLayer2Stereo.cs",
+        "src/MP3Sharp/Decoding/Decoders/LayerIIDecoder.cs",
+        "src/MP3Sharp/Decoding/Decoders/LayerIII/ChannelData.cs",
+        "src/MP3Sharp/Decoding/Decoders/LayerIII/GranuleInfo.cs",
+        "src/MP3Sharp/Decoding/Decoders/LayerIII/Layer3SideInfo.cs",
+        "src/MP3Sharp/Decoding/Decoders/LayerIII/SBI.cs",
+        "src/MP3Sharp/Decoding/Decoders/LayerIII/ScaleFactorData.cs",
+        "src/MP3Sharp/Decoding/Decoders/LayerIII/ScaleFactorTable.cs",
+        "src/MP3Sharp/Decoding/Decoders/LayerIIIDecoder.cs",
+        "src/MP3Sharp/Decoding/Equalizer.cs",
+        "src/MP3Sharp/Decoding/Header.cs",
+        "src/MP3Sharp/Decoding/Huffman.cs",
+        "src/MP3Sharp/Decoding/OutputChannels.cs",
+        "src/MP3Sharp/Decoding/OutputChannelsEnum.cs",
+        "src/MP3Sharp/Decoding/PushbackStream.cs",
+        "src/MP3Sharp/Decoding/SampleBuffer.cs",
+        "src/MP3Sharp/Decoding/SynthesisFilter.cs",
+        "src/MP3Sharp/IO/RandomAccessFileStream.cs",
+        "src/MP3Sharp/IO/RiffFile.cs",
+        "src/MP3Sharp/IO/WaveFile.cs",
+        "src/MP3Sharp/IO/WaveFileBuffer.cs",
+        "src/MP3Sharp/MP3Sharp.csproj",
+        "src/MP3Sharp/MP3SharpException.cs",
+        "src/MP3Sharp/MP3Stream.cs",
+        "src/MP3Sharp/SoundFormat.cs",
+        "src/MP3Sharp/Support/SupportClass.cs"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Konata.Core >= 1.4.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\SweelLong\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\SweelLong\\Desktop\\QQBotKonata\\QQBotKonata.csproj",
+      "projectName": "QQBotKonata",
+      "projectPath": "C:\\Users\\SweelLong\\Desktop\\QQBotKonata\\QQBotKonata.csproj",
+      "packagesPath": "C:\\Users\\SweelLong\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SweelLong\\Desktop\\QQBotKonata\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\SweelLong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Konata.Core": {
+            "target": "Package",
+            "version": "[1.4.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
